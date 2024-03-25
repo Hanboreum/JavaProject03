@@ -1,20 +1,20 @@
 package kr.excel.resume;
 
 public class Education {
-    private int graduationYear;
+    private String graduationYear;
     private String major;
     public Education(){}
 
-    public Education(int graduationYear, String major) {
+    public Education(String graduationYear, String major) {
         this.graduationYear = graduationYear;
         this.major = major;
     }
 
-    public int getGraduationYear() {
+    public String getGraduationYear() {
         return graduationYear;
     }
 
-    public void setGraduationYear(int graduationYear) {
+    public void setGraduationYear(String graduationYear) {
         this.graduationYear = graduationYear;
     }
 

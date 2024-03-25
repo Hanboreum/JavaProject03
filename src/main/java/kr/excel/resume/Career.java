@@ -1,21 +1,21 @@
 package kr.excel.resume;
 
 public class Career {
-    private String wordPeriod;
+    private String workPeriod;
     private String jobTitle;
     public Career(){}
 
-    public Career(String wordPeriod, String jobTitle) {
-        this.wordPeriod = wordPeriod;
+    public Career(String workPeriod, String jobTitle) {
+        this.workPeriod = workPeriod;
         this.jobTitle = jobTitle;
     }
 
-    public String getWordPeriod() {
-        return wordPeriod;
+    public String getWorkPeriod() {
+        return workPeriod;
     }
 
-    public void setWordPeriod(String wordPeriod) {
-        this.wordPeriod = wordPeriod;
+    public void setWordPeriod(String workPeriod) {
+        this.workPeriod = workPeriod;
     }
 
     public String getJobTitle() {
@@ -29,7 +29,7 @@ public class Career {
     @Override
     public String toString() {
         return "Career{" +
-                "wordPeriod='" + wordPeriod + '\'' +
+                "wordPeriod='" + workPeriod + '\'' +
                 ", jobTitle='" + jobTitle + '\'' +
                 '}';
     }
