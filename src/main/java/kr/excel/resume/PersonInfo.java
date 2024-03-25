@@ -1,10 +1,10 @@
-package java.resume;
+package kr.excel.resume;
 
 public class PersonInfo {
-    private String name ;
-    private int tel;
-    public PersonInfo(){}
+    private String name;
+    private  int tel;
 
+    public PersonInfo(){}
     public PersonInfo(String name, int tel) {
         this.name = name;
         this.tel = tel;
